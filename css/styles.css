@@ -105,10 +105,11 @@ text-align: center;
 }
 /* Navbar */
 #navbar{
-    position: sticky;
+    display: flex;
+    position:sticky;
     background:rgb(17, 17, 17);
     color:#fff;
-    display: flex;
+    top:0;
     justify-content: space-between;
     z-index: 1;
     padding:1rem;
@@ -148,7 +149,7 @@ text-align: center;
     padding:0 2rem;
     /* Overlay */
     position: absolute;
-    top:64px;
+    top:65px;
     left:0;
     right:0;
     bottom:0;
@@ -211,6 +212,7 @@ text-align: center;
   
   #contact .contact-form .form-group {
     margin: 0.75rem;
+    padding:0.5rem;
   }
   
   #contact .contact-form label {
