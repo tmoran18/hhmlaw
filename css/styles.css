@@ -137,6 +137,7 @@ text-align: center;
     background:#333 url('../img/brisbane.jpg')no-repeat center center/cover;
     height:100vh;
     color:#fff;
+    position: relative;
 }
 
 #showcase .showcase-content{
@@ -149,7 +150,7 @@ text-align: center;
     padding:0 2rem;
     /* Overlay */
     position: absolute;
-    top:65px;
+    top:0;
     left:0;
     right:0;
     bottom:0;
@@ -183,6 +184,7 @@ text-align: center;
 
 #team div{
     flex:1;
+    flex-basis:50%;
 }
 
 #team .team-img{
@@ -208,6 +210,7 @@ text-align: center;
   
   #contact .map, #contact .contact-form {
     flex: 1;
+
   }
   
   #contact .contact-form .form-group {
